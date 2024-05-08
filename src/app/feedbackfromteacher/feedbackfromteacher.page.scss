@@ -1,0 +1,41 @@
+ion-header,
+ion-toolbar,
+ion-title {
+  background-color: white;
+  color: black;
+}
+
+ion-content {
+  --ion-background-color: white;
+}
+
+h2 {
+  color: black;
+}
+
+label {
+  color: black;
+}
+
+input[type="text"],
+textarea,
+select {
+  background-color: #f2f2f2;
+  color: black;
+  border: none;
+  padding: 5px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
